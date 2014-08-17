@@ -1,0 +1,12 @@
+{
+  "name": "web-stub",
+  "version": "0.1.0",
+  "authors": [
+    "Vladimir Varankin <nek.narqo@gmail.com> (http://github.com/narqo)"
+  ],
+  "license": "WTFPL",
+  "dependencies": {
+    "bem-core": "bem/bem-core#^2.4.0"
+  },
+  "private": true
+}

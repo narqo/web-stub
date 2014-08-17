@@ -1,0 +1,29 @@
+{
+  "name": "web-stub",
+  "version": "0.1.0",
+  "description": "A web project stub",
+  "main": "bin/app.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "~1.3.9",
+    "eslint": "~0.7.4"
+  },
+  "scripts": {
+    "start": "node .",
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/narqo/web-stub.git"
+  },
+  "author": "Vladimir Varankin <nek.narqo@gmail.com> (http://github.com/narqo)",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/narqo/web-stub/issues"
+  },
+  "homepage": "https://github.com/narqo/web-stub",
+  "private": true
+}
