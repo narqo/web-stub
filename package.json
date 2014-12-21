@@ -2,7 +2,7 @@
   "name": "web-stub",
   "version": "0.1.0",
   "description": "A web project stub",
-  "main": "bin/app.js",
+  "main": "bin/start.js",
   "directories": {
     "doc": "doc"
   },
@@ -12,6 +12,7 @@
     "eslint": "~0.7.4"
   },
   "scripts": {
+    "preinstall": "dest=node_modules/$npm_package_name;test -e \"$dest\" || { mkdir -p `dirname $dest`;ln -fs ../lib $dest; }",
     "start": "node .",
     "test": "make test"
   },
